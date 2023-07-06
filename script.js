@@ -29,7 +29,7 @@ function saveForm(){
     fetch(url, params).then(response =>{
         console.log(response);
 
-        if(response.status == 200){
+        if(response.status == 201){
             alert("Formulario enviado");
         }else{
             alert("Error en el envio del formuario");
